@@ -3,10 +3,9 @@
        let u = sessionStorage.getItem("user");
 
        if(u == null){
-         
-          window.location="index.html"; 
+          //window.location="index.html"; 
        }else{
-       // console.log('login valido');
+           window.location="home.html"; 
        }
 
     window.addEventListener("load", function () {
