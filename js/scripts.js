@@ -341,8 +341,6 @@
                     
                     let exist = document.getElementById("myspam");
                     let tag = document.getElementById("spamtag");
-                     
-                   
                     if(tag != null) {tag.innerHTML = "";}
                     
                     if(exist == null){
