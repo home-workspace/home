@@ -454,7 +454,7 @@
         
 
     function getmodel(){
-        return fetch('../data/model.json')
+        return fetch('model.json')
         .then(res => res.json())
         .catch(error => {
             console.error(error);
