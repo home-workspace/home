@@ -4,7 +4,7 @@
 
        if(u == null){
          
-          window.location="../index.html"; 
+          window.location="index.html"; 
        }else{
        // console.log('login valido');
        }
@@ -428,7 +428,7 @@
                
                 localStorage.setItem("usuario",JSON.stringify(nuevoreg));
                 sessionStorage.setItem("user" , email);
-                window.location="view/home.html"; 
+                window.location="home.html"; 
             }
     
             //console.log("1");
@@ -441,7 +441,7 @@
                 //validar login
                 if(email == userr && pass == passw){
                     sessionStorage.setItem("user" , userr);
-                    window.location="view/home.html"; 
+                    window.location="home.html"; 
                 }else{
                     alert('el email o el password es incorrecto.')
                 }
