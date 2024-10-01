@@ -1,0 +1,20 @@
+{
+  "app": [
+    "tramite", {
+      "name": "Facebook",
+      "url": "www.faceook.com",
+      "tramite_name": "red social"
+    },
+    {
+      "name": "Google",
+      "url": "www.Google.com",
+      "tramite_name": "red social"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.Youtube.com",
+      "tramite_name": "red social"
+    }
+  ],
+  "id": "com.tramite"
+}
